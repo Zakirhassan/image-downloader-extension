@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Image Downloader",
+    "version": "1.0",
+    "description": "A Chrome extension that lists and downloads images from a website.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "downloads"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+       
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
+  
